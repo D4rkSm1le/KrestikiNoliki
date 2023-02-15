@@ -1,0 +1,25 @@
+﻿<Window x:Class="KrestikiNoliki.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KrestikiNoliki"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFDAB4B4">
+        <Button x:Name="first" Content="" HorizontalAlignment="Left" Margin="144,75,0,0" VerticalAlignment="Top" Height="66" Width="72" RenderTransformOrigin="-0.806,0.312" Click="first_Click"/>
+        <Button x:Name="second" Content="" HorizontalAlignment="Left" Margin="244,75,0,0" VerticalAlignment="Top" Height="66" Width="71" RenderTransformOrigin="-0.806,0.312" Click="second_Click"/>
+        <Button x:Name="tri" HorizontalAlignment="Left" Margin="346,75,0,0" VerticalAlignment="Top" Height="66" Width="72" RenderTransformOrigin="-0.806,0.312" Click="tri_Click"/>
+        <Button x:Name="chetiri" HorizontalAlignment="Left" Margin="144,168,0,0" VerticalAlignment="Top" Height="66" Width="71" RenderTransformOrigin="-0.806,0.312" Click="chetiri_Click"/>
+        <Button x:Name="shest" HorizontalAlignment="Left" Margin="346,168,0,0" VerticalAlignment="Top" Height="66" Width="72" RenderTransformOrigin="-0.806,0.312" Click="shest_Click"/>
+        <Button x:Name="devyt" HorizontalAlignment="Left" Margin="346,252,0,0" VerticalAlignment="Top" Height="66" Width="72" RenderTransformOrigin="-0.806,0.312" Click="devyt_Click"/>
+        <Button x:Name="vosem" HorizontalAlignment="Left" Margin="244,252,0,0" VerticalAlignment="Top" Height="66" Width="72" RenderTransformOrigin="-0.806,0.312" Click="vosem_Click"/>
+        <Button x:Name="sem" HorizontalAlignment="Left" Margin="144,252,0,0" VerticalAlignment="Top" Height="66" Width="72" RenderTransformOrigin="-0.806,0.312" Click="sem_Click"/>
+        <Button x:Name="nachat" Content="Начать игру" HorizontalAlignment="Left" Margin="528,75,0,0" VerticalAlignment="Top" Height="66" Width="157" RenderTransformOrigin="-0.806,0.312" Click="nachat_Click" FontFamily="Arial Black" FontSize="16"/>
+        <Button x:Name="restart" Content="Рестарт игры" HorizontalAlignment="Left" Margin="560,266,0,0" VerticalAlignment="Top" Height="38" Width="92" RenderTransformOrigin="-0.806,0.312" Click="restart_Click" FontFamily="Arial Black" FontSize="11"/>
+        <Button x:Name="pyt" HorizontalAlignment="Left" Margin="244,168,0,0" VerticalAlignment="Top" Height="66" Width="72" RenderTransformOrigin="-0.806,0.312" Click="pyt_Click"/>
+        <TextBlock x:Name="Vigral" HorizontalAlignment="Left" Margin="237,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="86" Foreground="#FFC35757" Background="White"/>
+
+
+    </Grid>
+</Window>
